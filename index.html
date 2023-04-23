@@ -22,23 +22,29 @@
 	<link rel="stylesheet" href="css/style.css">
 <!--======== Sticky navbar=====================-->
 	<style type="text/css">
-	.fixed-top {
-		position: fixed;
-	  	top: 32px;
- 	 	width: 100%;		
+		
+	.nav-padding{
+		padding-bottom: 50px;
 	}
-
-
-/*
 	.fixed-top {
 	top: -32px;
 	position: fixed;
 	transform: translateY(40px);
 	transition: transform .3s;
-
 	}
-
-*/
+	@media (max-width: 991.98px) {
+		.fixed-top {
+		top: 0px;
+		position: fixed;
+		transform: translateY(10px);
+		transition: transform .3s;
+		}
+	}
+	@media (max-width: 767px) {
+		.nav-padding{
+			padding-bottom: 0px;
+		}
+	}
 	</style>
 	<script type="text/javascript">
 		document.addEventListener("DOMContentLoaded", function(){
