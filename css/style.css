@@ -8490,7 +8490,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .container {
     width: 1110px;
     margin: 0 auto;
-    padding: 0;
+    padding: 10px;
     background: #040e26 !important; }
   .ftco-navbar-light .navbar-brand {
     color: #000000;
