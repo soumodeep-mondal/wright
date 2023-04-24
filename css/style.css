@@ -8490,7 +8490,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .container {
     width: 1110px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0;
     background: #040e26 !important; }
   .ftco-navbar-light .navbar-brand {
     color: #000000;
@@ -8577,7 +8577,7 @@ h1, h2, h3, h4, h5,
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
-    
+    font-size:20px
     letter-spacing: .1em; }
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
